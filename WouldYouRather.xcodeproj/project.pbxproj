@@ -1,0 +1,86 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* WouldYouRatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* WouldYouRatherApp.swift */; };
+		A10000000000000000000002 /* AppShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* AppShellView.swift */; };
+		A10000000000000000000003 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* DesignTokens.swift */; };
+		A10000000000000000000004 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* Question.swift */; };
+		A10000000000000000000005 /* PlayerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* PlayerModels.swift */; };
+		A10000000000000000000006 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* AppRouter.swift */; };
+		A10000000000000000000007 /* QuestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* QuestionTests.swift */; };
+		A10000000000000000000008 /* WouldYouRatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* WouldYouRatherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* WouldYouRatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WouldYouRatherApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* AppShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShellView.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* PlayerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModels.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* QuestionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTests.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* WouldYouRatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WouldYouRatherUITests.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* WouldYouRather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WouldYouRather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000010 /* WouldYouRatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WouldYouRatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000011 /* WouldYouRatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WouldYouRatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A30000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A30000000000000000000003 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {isa = PBXGroup; children = (A40000000000000000000002 /* WouldYouRather */, A40000000000000000000008 /* WouldYouRatherTests */, A40000000000000000000009 /* WouldYouRatherUITests */, A40000000000000000000010 /* Products */); sourceTree = "<group>"; };
+		A40000000000000000000002 /* WouldYouRather */ = {isa = PBXGroup; children = (A40000000000000000000003 /* App */, A40000000000000000000004 /* DesignSystem */, A40000000000000000000005 /* Models */, A40000000000000000000006 /* Navigation */); path = WouldYouRather; sourceTree = "<group>"; };
+		A40000000000000000000003 /* App */ = {isa = PBXGroup; children = (A20000000000000000000001 /* WouldYouRatherApp.swift */, A20000000000000000000002 /* AppShellView.swift */); path = App; sourceTree = "<group>"; };
+		A40000000000000000000004 /* DesignSystem */ = {isa = PBXGroup; children = (A20000000000000000000003 /* DesignTokens.swift */); path = DesignSystem; sourceTree = "<group>"; };
+		A40000000000000000000005 /* Models */ = {isa = PBXGroup; children = (A20000000000000000000004 /* Question.swift */, A20000000000000000000005 /* PlayerModels.swift */); path = Models; sourceTree = "<group>"; };
+		A40000000000000000000006 /* Navigation */ = {isa = PBXGroup; children = (A20000000000000000000006 /* AppRouter.swift */); path = Navigation; sourceTree = "<group>"; };
+		A40000000000000000000008 /* WouldYouRatherTests */ = {isa = PBXGroup; children = (A20000000000000000000007 /* QuestionTests.swift */); path = WouldYouRatherTests; sourceTree = "<group>"; };
+		A40000000000000000000009 /* WouldYouRatherUITests */ = {isa = PBXGroup; children = (A20000000000000000000008 /* WouldYouRatherUITests.swift */); path = WouldYouRatherUITests; sourceTree = "<group>"; };
+		A40000000000000000000010 /* Products */ = {isa = PBXGroup; children = (A20000000000000000000009 /* WouldYouRather.app */, A20000000000000000000010 /* WouldYouRatherTests.xctest */, A20000000000000000000011 /* WouldYouRatherUITests.xctest */); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* WouldYouRather */ = {isa = PBXNativeTarget; buildConfigurationList = A60000000000000000000001 /* Build configuration list for PBXNativeTarget "WouldYouRather" */; buildPhases = (A30000000000000000000001 /* Frameworks */, A70000000000000000000001 /* Sources */); buildRules = (); dependencies = (); name = WouldYouRather; productName = WouldYouRather; productReference = A20000000000000000000009 /* WouldYouRather.app */; productType = "com.apple.product-type.application"; };
+		A50000000000000000000002 /* WouldYouRatherTests */ = {isa = PBXNativeTarget; buildConfigurationList = A60000000000000000000002 /* Build configuration list for PBXNativeTarget "WouldYouRatherTests" */; buildPhases = (A30000000000000000000002 /* Frameworks */, A70000000000000000000002 /* Sources */); buildRules = (); dependencies = (); name = WouldYouRatherTests; productName = WouldYouRatherTests; productReference = A20000000000000000000010 /* WouldYouRatherTests.xctest */; productType = "com.apple.product-type.bundle.unit-test"; };
+		A50000000000000000000003 /* WouldYouRatherUITests */ = {isa = PBXNativeTarget; buildConfigurationList = A60000000000000000000003 /* Build configuration list for PBXNativeTarget "WouldYouRatherUITests" */; buildPhases = (A30000000000000000000003 /* Frameworks */, A70000000000000000000003 /* Sources */); buildRules = (); dependencies = (); name = WouldYouRatherUITests; productName = WouldYouRatherUITests; productReference = A20000000000000000000011 /* WouldYouRatherUITests.xctest */; productType = "com.apple.product-type.bundle.ui-testing"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; TargetAttributes = {A50000000000000000000001 = {CreatedOnToolsVersion = 16.0;}; A50000000000000000000002 = {CreatedOnToolsVersion = 16.0; TestTargetID = A50000000000000000000001;}; A50000000000000000000003 = {CreatedOnToolsVersion = 16.0; TestTargetID = A50000000000000000000001;};};}; buildConfigurationList = A60000000000000000000004 /* Build configuration list for PBXProject "WouldYouRather" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A40000000000000000000001; productRefGroup = A40000000000000000000010 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (A50000000000000000000001 /* WouldYouRather */, A50000000000000000000002 /* WouldYouRatherTests */, A50000000000000000000003 /* WouldYouRatherUITests */); };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* WouldYouRatherApp.swift in Sources */, A10000000000000000000002 /* AppShellView.swift in Sources */, A10000000000000000000003 /* DesignTokens.swift in Sources */, A10000000000000000000004 /* Question.swift in Sources */, A10000000000000000000005 /* PlayerModels.swift in Sources */, A10000000000000000000006 /* AppRouter.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+		A70000000000000000000002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000007 /* QuestionTests.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+		A70000000000000000000003 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000008 /* WouldYouRatherUITests.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A90000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SWIFT_VERSION = 5.0;}; name = Debug; };
+		A90000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SWIFT_VERSION = 5.0;}; name = Release; };
+		A90000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CLANG_ENABLE_MODULES = YES; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Would You Rather"; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.nyaris.wouldyourather; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_STRICT_CONCURRENCY = complete; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug; };
+		A90000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CLANG_ENABLE_MODULES = YES; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Would You Rather"; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.nyaris.wouldyourather; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_STRICT_CONCURRENCY = complete; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Release; };
+		A90000000000000000000005 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.nyaris.wouldyourather.tests; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WouldYouRather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WouldYouRather";}; name = Debug; };
+		A90000000000000000000006 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.nyaris.wouldyourather.tests; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WouldYouRather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WouldYouRather";}; name = Release; };
+		A90000000000000000000007 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.nyaris.wouldyourather.uitests; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = WouldYouRather;}; name = Debug; };
+		A90000000000000000000008 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.nyaris.wouldyourather.uitests; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = WouldYouRather;}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60000000000000000000001 /* Build configuration list for PBXNativeTarget "WouldYouRather" */ = {isa = XCConfigurationList; buildConfigurations = (A90000000000000000000003 /* Debug */, A90000000000000000000004 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A60000000000000000000002 /* Build configuration list for PBXNativeTarget "WouldYouRatherTests" */ = {isa = XCConfigurationList; buildConfigurations = (A90000000000000000000005 /* Debug */, A90000000000000000000006 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A60000000000000000000003 /* Build configuration list for PBXNativeTarget "WouldYouRatherUITests" */ = {isa = XCConfigurationList; buildConfigurations = (A90000000000000000000007 /* Debug */, A90000000000000000000008 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A60000000000000000000004 /* Build configuration list for PBXProject "WouldYouRather" */ = {isa = XCConfigurationList; buildConfigurations = (A90000000000000000000001 /* Debug */, A90000000000000000000002 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A80000000000000000000001 /* Project object */;
+}
