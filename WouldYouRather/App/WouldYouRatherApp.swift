@@ -2,12 +2,12 @@ import SwiftUI
 
 @main
 struct WouldYouRatherApp: App {
-    @State private var router = AppRouter()
+    @StateObject private var router = AppRouter()
 
     var body: some Scene {
         WindowGroup {
             AppShellView()
-                .environment(router)
+                .environmentObject(router)
                 .tint(AppColor.ink)
         }
     }
