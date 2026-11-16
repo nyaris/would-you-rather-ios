@@ -1,7 +1,6 @@
-import Observation
+import Combine
 
-@Observable
-final class AppRouter {
-    var selectedCategory: QuestionCategory = .all
-    var hasCompletedOnboarding = false
+final class AppRouter: ObservableObject {
+    @Published var selectedCategory: QuestionCategory = .all
+    @Published var hasCompletedOnboarding = false
 }
